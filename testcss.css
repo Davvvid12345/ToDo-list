@@ -1,0 +1,83 @@
+.mainTable {
+    
+    height: auto;
+    width: 30%;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    margin-top: 50px;
+    box-shadow: 0 0 25px black 
+        
+    
+}
+
+body {
+background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #19547b, #ffd89b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #19547b, #ffd89b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+    
+}
+.mainTable > ul {
+    
+    list-style: none;
+    text-align: left;
+    padding-right: 35px;
+    
+}
+
+li {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px
+}
+
+.mainTable > ul > li:nth-child(2n) {
+    
+    background: #e2e2e2
+    
+    
+}
+
+#btn {
+    
+    background: #ffffff;
+    border-radius: 5px;
+    
+}
+
+#btnS {
+    
+    border-radius: 5px;
+    background: #000000;
+    color: white
+    
+}
+.mainTable > h1 {
+    
+    background: black;
+    color: white;
+    margin-top: 0px;
+    height: 50px
+}
+
+span  {
+    display: "inline" ;
+    background: #e74c3c;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0px;
+    display: inline-block;
+    opacity: 0;
+    transition: 0.3s linear;
+    cursor: pointer
+    
+}
+
+li:hover span {
+    width: 40px;
+    opacity: 1
+}
